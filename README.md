@@ -43,3 +43,7 @@ custom-package.deb:
 dpkg -i custom.deb:
   cmd.run
 ```
+
+# Todo
+* Switch `requests` to salt's [`fileclient.get_url`](https://github.com/saltstack/salt/blob/v2014.7.2/salt/fileclient.py#L497).
+* Add support for authentication
